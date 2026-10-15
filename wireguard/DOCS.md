@@ -51,7 +51,7 @@ Follow the following steps for installation & a quick start:
 1. Forward port `51820` (UDP!) in your router to your Home Assistant instance.
 1. Download/Open the file `/ssl/wireguard/myphone/qrcode.png` stored on your
    Home Assistant instance, e.g., using Samba, Visual Studio Code or the
-   Configurator app.
+   Configurator app. A `ssl/wireguard/myphone/client.conf` Wireguard configuration file is also generated.
 1. Install the WireGuard app on your phone.
 1. Add a new WireGuard connection to your phone, by scanning the QR code.
 1. Connect!
